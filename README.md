@@ -1,8 +1,8 @@
 <main>
-    <head>
-        <img align="center" src = 'b7w-logo.png' width=200 >
+    <div align="center">
+        <img src="b7w-logo.png" width=300>
         <h1>To do List</h1>
-    </head>
+    </div>
     <section>
         <h2>About B7Web</h2>
         <p>The B7Web is an Online Code Platform that teaches students to become a fullstack developer (Web & Mobile).<br>
