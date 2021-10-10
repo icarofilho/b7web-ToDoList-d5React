@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+<main>
+    <head>
+        <img align="center" src = 'b7w-logo.png' width=200 >
+        <h1>To do List</h1>
+    </head>
+    <section>
+        <h2>About B7Web</h2>
+        <p>The B7Web is an Online Code Platform that teaches students to become a fullstack developer (Web & Mobile).<br>
+        The d5React bootcamp  teach us react/typescript through five projects in five days. </p>
+        <ul>
+            <li>To do list</li>
+            <li><a href="">Financial system</a></li>
+            <li><a href="">Photo Gallery</a></li>
+            <li><a href="">RPG Games</a></li>
+            <li><a href="">Advanced Form</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Objectives of this project</h2>
+        <p>Add a task to a list with checkbox option</p>
+    </section>
+    <section>
+    <h2>Creation method </h2>
+    <h3>creating the project folder</h3>
+    <code>
+        npx create-react-app [project_name] --template typescript
+    </code>
+    <h3>Installing libraries</h3>
+    <code>
+        npm install styled-components<br>
+        npm install -D @types/styled-components
+    </code>
+    </section>
+    <section>
+        <h2>Start Server</h2>
+        <p>in order to use the applications you must start the server at the projects folder by:</p>
+        <code>npm start</code>
+        <h2>Technologies Applied</h2>
+        <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt='npm'>
+        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"><br>
+        <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/icarofilho/b7web-ToDoList-d5React?style=for-the-badge">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5">
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3">
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript">
+        <br>
+        <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/icarofilho/b7web-ToDoList-d5React?style=for-the-badge">
+    </section>
+</main>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
